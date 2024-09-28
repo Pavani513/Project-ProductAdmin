@@ -1,0 +1,361 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4e657a;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    background-color: #394f62c1;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.header-left h3 {
+    margin-left: 150px;
+    color: white;
+}
+
+.header-left a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.header-left p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.header-right p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.fa-user {
+    padding-bottom: 19px;
+}
+
+.fa-gear {
+    padding-bottom: 35px;
+}
+
+.fa-tachometer {
+    padding-bottom: 15px;
+}
+
+.header-left .fa-gear {
+    padding-top: 20px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #394f62;
+}
+
+.main {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 150px;
+    color: white;
+}
+
+.welcome {
+    background-color: #4e657a;
+}
+
+ .content {
+    font-size: 17px;
+    color: white;
+    padding: 40px 0px 40px 140px;
+}
+
+.four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.graph {
+    background-color: #394f62;
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.orders {
+    height: 330px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: lightgrey #435c70;
+}
+
+.girls {
+    background-color: #4e657a;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 10px 30px 10px 30px;
+}
+
+.girls span {
+    color: orange;
+}
+
+.notif {
+    padding: 6px 0px 6px 0px;
+}
+
+.girls img {
+    padding-left: 10px;
+    border-radius: 50%;
+}
+
+.order-list {
+    background-color: #394f62;
+    margin: 0px 140px;
+    padding-bottom: 5px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: lightgrey #435c70;
+    height: 450px;
+
+}
+
+.order-list h4 {
+    color: white;
+    padding: 50px 0px 20px 50px;
+}
+
+.three {
+    margin: 0px 50px 50px 50px;
+}
+
+.table {
+    padding-top: 30px;
+}
+
+.table th {
+    background-color: #2634410f;
+    color: white;
+    padding: 12px;
+}
+
+.table td {
+    background-color: #4e657a;
+    color: white;
+    padding: 12px;
+}
+
+.data {
+    width: 5px;
+    height: 1px;
+    padding-left: -10px;
+}
+
+.footer {
+    background-color: #567086;
+    color: white;
+    padding: 27px 0px 15px 0px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.Avatar {
+    background-color: #394f62;
+    margin: 50px 140px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+    color: white;
+}
+
+select {
+    padding: 15px 500px;
+    outline: 3px solid cornflowerblue;
+    background-color: #4e657a;
+    color: white;
+}
+
+.account-settings {
+    display: flex;
+}
+
+.profile {
+    background-color: #394f62;
+    width: 450px;
+    height: 500px;
+    padding: 50px;
+    color: white;
+    margin: 0px 30px 0px 135px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.profile button {
+    padding: 12px 95px;
+    background-color: #f5a623;
+    border: #f5a623;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    outline: 3px solid cornflowerblue;
+}
+
+.setting {
+    padding: 10px 30px;
+}
+
+.details {
+    background-color: #394f62;
+    color: white;
+    margin-right: 135px;
+}
+
+.details h5 {
+    padding: 50px 0px 0px 50px;
+}
+
+.acc {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.acc input {
+    padding: 12px 45px;
+    background-color: #54657d;
+    border: none;
+    outline: none;
+}
+
+.update {
+    padding: 60px 0px 0px 40px;
+}
+
+.update button {
+    padding: 12px 50px;
+    background-color: #f5a623;
+    border: #f5a623;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    outline: 3px solid cornflowerblue;
+}
+
+.delete {
+    padding: 20px 0px 50px 30px;
+}
+
+.delete button {
+    padding: 12px 220px;
+    background-color: #f5a623;
+    color: white;
+    border: #f5a623;
+    font-weight: bold;
+    font-size: 15px;
+    outline: 3px solid cornflowerblue;
+}
+
+.name {
+    font-weight: bold;
+    color: #394f62;
+}
+
+.header-left a:hover,
+.header-left i:hover,
+.header-left p:hover,
+.header-right a:hover {
+    color: #f5a623 !important;
+    cursor: pointer;
+}
+
+.account-settings button:hover,
+.login button:hover {
+    background-color: #394f62;
+    outline: 3px solid #f5a623;
+    color: #f5a623;
+}
+
+.acc input:active,
+.login input:active {
+    outline: 1px solid cornflowerblue;
+    border: none;
+}
+
+.girls span:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.name:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.page-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.login {
+    background-color: #394f62;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 50px;
+
+}
+
+.login input {
+    padding: 15px 0px;
+    background-color: #567086;
+    border: none;
+    outline: none;
+}
+
+.login label {
+    padding: 10px 0px;
+}
+
+.login button {
+    padding: 12px 100px;
+    background-color: #f5a623;
+    color: white;
+    border: #f5a623;
+    font-weight: bold;
+    font-size: 15px;
+    outline: 3px solid cornflowerblue;
+}
