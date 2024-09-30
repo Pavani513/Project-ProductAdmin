@@ -301,16 +301,15 @@ select {
 }
 
 .account-settings button:hover,
-.login button:hover {
+form button:hover {
     background-color: #394f62;
     outline: 3px solid #f5a623;
     color: #f5a623;
 }
 
 .acc input:active,
-.login input:active {
+form input:active {
     outline: 1px solid cornflowerblue;
-    border: none;
 }
 
 .girls span:hover {
@@ -330,7 +329,7 @@ select {
     padding: 50px;
 }
 
-.login {
+.login form {
     background-color: #394f62;
     display: flex;
     flex-direction: column;
@@ -339,18 +338,19 @@ select {
 
 }
 
-.login input {
+form input {
+    width: 100%;
     padding: 15px 0px;
     background-color: #567086;
     border: none;
     outline: none;
 }
 
-.login label {
+form label {
     padding: 10px 0px;
 }
 
-.login button {
+form button {
     padding: 12px 100px;
     background-color: #f5a623;
     color: white;
