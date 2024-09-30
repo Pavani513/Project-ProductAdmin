@@ -343,6 +343,8 @@ form input {
     padding: 15px 0px;
     background-color: #567086;
     border: none;
+    color: #f5a623;
+    font-size: 19px;
     outline: none;
 }
 
