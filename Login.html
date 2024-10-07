@@ -18,37 +18,68 @@
 </head>
 
 <body>
-  <div class="header">
-    <div class="header-left">
-      <div>
-        <h3>PRODUCT ADMIN</h3>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <h3 class="navbar-brand text-light" id="navb">Product Admin</h3>
+      <button class="navbar-toggler" id="hambar" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 d-block-md">
+          <li class="nav-item">
+            <a href="./Dasboard.html"><i class="fa fa-tachometer pt-4" style="font-size:25px;color:white">
+                <p class="mt-2">Dashboard</p>
+              </i></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" id="settingsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-regular fa-file-lines pt-4" style="font-size:25px; color:white;">
+                <p class="nav-link dropdown-toggle text-light mt-1">Reports</p>
+              </i>
+              <ul class="dropdown-menu" aria-labelledby="settingsDropdown" style="background-color: #394f62c1;">
+                <li><a class="dropdown-item text-light" href="#">Daily Report</a></li>
+                <li><a class="dropdown-item text-light" href="#">Weekly Report</a></li>
+                <li><a class="dropdown-item text-light" href="#">Yearly Report</a></li>
+              </ul>
+          </li>
+          <li class="nav-item" id="product">
+            <i class="fa fa-shopping-cart pt-4" style="font-size:25px; color:white">
+              <p class="mt-2">Products</p>
+            </i>
+          </li>
+          <li class="nav-item">
+            <a href="./Accounts.html"><i class="fa fa-user pt-4" style="font-size:25px; color:white">
+                <p class="mt-2">Accounts</p>
+              </i></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" id="settingsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-gear pt-4" style="font-size:25px;color:white;">
+                <p class="nav-link dropdown-toggle text-light mt-1">Settings</p>
+              </i>
+              <ul class="dropdown-menu" aria-labelledby="settingsDropdown" style="background-color: #394f62c1;">
+                <li><a class="dropdown-item text-light" href="#">Profile</a></li>
+                <li><a class="dropdown-item text-light" href="#">Billing</a></li>
+                <li><a class="dropdown-item text-light" href="#">Customize</a></li>
+              </ul>
+          </li>
       </div>
-      <div class="main" style="text-align:center;">
-        <i class="fa fa-tachometer" style="font-size:25px;color:white"><a class="d-block" href="./Dasboard.html">Dashboard</a></i>
-        <i class="fa-regular fa-file-lines" style="font-size:25px; color:white;"><p class="nav-link dropdown-toggle">Reports</p></i>
-        <i class="fa fa-shopping-cart" style="font-size:25px; color:white"><p>Products</p></i>
-        <i class="fa fa-user" style="font-size:25px; color:white"><a class="d-block" href="./Accounts.html">Accounts</a></i>
-          <a href="#" id="settingsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-         <i class="fa fa-gear" style="font-size:25px;color:white;"><p class="nav-link dropdown-toggle">Settings</p></i>
-          <ul class="dropdown-menu" aria-labelledby="settingsDropdown" style="background-color: #394f62c1;">
-          <li><a class="dropdown-item text-light" href="#">Profile</a></li>
-          <li><a class="dropdown-item text-light" href="#">Billing</a></li>
-          <li><a class="dropdown-item text-light" href="#">Customize</a></li>
-          </ul>
-          </div>
-        </div>
-        </div>
+
+    </div>
+  </nav>
   <div class="page-one">
     <div class="login">
 
-      <h4 class="text-center">Welcome to Dashboard</h4>
+      <h4 class="text-center text-light">Welcome to Dashboard</h4>
       <form action="./Dasboard.html">
-      <label for="Fullname">Username</label>
-      <input type="text" id="Fullname" name="" required>
-      <label for="Pswd">Password</label>
-      <input type="password" id="Pswd" required><br>
-      <button type="submit">LOGIN</button><br>
-      <button type="button">FORGET YOUR PASSWORD?</button>
+        <label for="Fullname">Username</label>
+        <input type="text" id="Fullname" name="" required>
+        <label for="Pswd">Password</label>
+        <input type="password" id="Pswd" required><br>
+        <button type="submit">LOGIN</button><br>
+        <button type="button">FORGET PASSWORD?</button>
       </form>
     </div>
   </div>
