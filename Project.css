@@ -8,84 +8,81 @@ body {
     background-color: #4e657a;
 }
 
-.header {
+.navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 130px;
     background-color: #394f62c1;
+    padding-left: 7rem;
+    height: 15vh;
 }
 
-.header-left {
-    display: flex;
-    align-items: center;
-    gap: 120px;
-}
-
-.header-left h3 {
-    margin-left: 150px;
+.navbar-brand {
     color: white;
+    float: inline-start;
+    font-size: 150%;
+    padding-top: 1rem;
+    padding-right: 5rem;
+    margin-left: 5rem;
 }
 
-.header-left a {
+#navb {
+    font-size: 150%;
+    margin: 0rem 10rem;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7rem;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-item a {
+    font-size: 50%;
     color: white;
     text-decoration: none;
-    font-size: 12px;
-    margin-top: 10px;
+
 }
 
-.header-left p {
-    font-size: 12px;
-    margin-top: 10px;
+.nav-item p {
+    font-size: 50%;
+
 }
 
-.header-right p {
-    font-size: 20px;
-    padding-top: 10px;
+.nav-item i {
+    padding-bottom: 1rem;
+    text-align: center;
 }
 
-.fa-user {
-    padding-bottom: 19px;
-}
-
-.fa-gear {
-    padding-bottom: 35px;
-}
-
-.fa-tachometer {
-    padding-bottom: 15px;
-}
-
-.header-left .fa-gear {
-    padding-top: 20px;
+#admin {
+    font-size: 100%;
 }
 
 .dropdown-menu a:hover {
+
     background-color: #394f62;
 }
 
-.main {
-    display: flex;
-    gap: 35px;
-    align-items: center;
-}
-
-.header-right {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    margin-right: 150px;
-    color: white;
+.dropdown-menu a {
+    font-size: 1rem;
 }
 
 .welcome {
     background-color: #4e657a;
 }
 
- .content {
-    font-size: 17px;
+.content {
+    font-size: 1rem;
     color: white;
-    padding: 40px 0px 40px 140px;
+    padding: 3rem 0rem 3rem 9rem;
 }
 
 .four {
@@ -93,19 +90,20 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    column-gap: 30px;
+    column-gap: 1rem;
+
 }
 
 .graph {
     background-color: #394f62;
     width: 40%;
-    margin-bottom: 20px;
-    padding: 20px;
+    margin-bottom: 1rem;
+    padding: 1rem;
     color: white;
 }
 
 .orders {
-    height: 330px;
+    height: 21rem;
     overflow-y: scroll;
     scrollbar-width: thin;
     scrollbar-color: lightgrey #435c70;
@@ -115,8 +113,8 @@ body {
     background-color: #4e657a;
     display: flex;
     align-items: center;
-    gap: 30px;
-    margin: 10px 30px 10px 30px;
+    gap: 2rem;
+    margin: 1rem 2rem;
 }
 
 .girls span {
@@ -125,78 +123,72 @@ body {
 
 .notif {
     padding: 6px 0px 6px 0px;
+
 }
 
 .girls img {
-    padding-left: 10px;
+    padding-left: 1rem;
     border-radius: 50%;
 }
 
 .order-list {
     background-color: #394f62;
-    margin: 0px 140px;
-    padding-bottom: 5px;
+    margin: 0rem 9rem;
     overflow-y: scroll;
     scrollbar-width: thin;
     scrollbar-color: lightgrey #435c70;
-    height: 450px;
+    height: 28rem;
 
 }
 
 .ol h4 {
     color: white;
-    padding: 50px 0px 20px 50px;
+    padding: 3rem 0rem 2rem 4rem;
 }
 
 .three {
-    margin: 0px 50px 50px 50px;
+    margin: 0rem 3rem 3rem 3rem;
 }
 
 .table {
-    padding-top: 30px;
+    padding-top: 2rem;
 }
 
 .table th {
     background-color: #2634410f;
     color: white;
-    padding: 12px;
+    padding: 1rem;
 }
 
 .table td {
     background-color: #4e657a;
     color: white;
-    padding: 12px;
-}
-
-.data {
-    width: 5px;
-    height: 1px;
-    padding-left: -10px;
+    padding: 1rem;
 }
 
 .footer {
     background-color: #567086;
     color: white;
-    padding: 27px 0px 15px 0px;
+    padding: 2rem 0rem 1rem 0rem;
     text-align: center;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .Avatar {
     background-color: #394f62;
-    margin: 50px 140px;
+    margin: 3rem 8rem;
 }
 
 .list {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    padding: 50px;
+    gap: 1rem;
+    padding: 3rem;
     color: white;
 }
 
 select {
-    padding: 15px 500px;
+    padding: 1rem 32rem;
     outline: 3px solid cornflowerblue;
     background-color: #4e657a;
     color: white;
@@ -208,83 +200,88 @@ select {
 
 .profile {
     background-color: #394f62;
-    width: 450px;
-    height: 500px;
-    padding: 50px;
+    height: 70vh;
+    padding: 3rem;
     color: white;
-    margin: 0px 30px 0px 135px;
+    margin: 0rem 2rem 0rem 8rem;
 }
 
 .image {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0px;
+    padding: 2rem 0rem;
 }
 
 .profile button {
-    padding: 12px 95px;
+    padding: 1rem 5rem;
+    margin-left: 8px;
     background-color: #f5a623;
     border: #f5a623;
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1rem;
     outline: 3px solid cornflowerblue;
 }
 
 .setting {
-    padding: 10px 30px;
+    padding: 1rem 2rem;
 }
 
 .details {
     background-color: #394f62;
     color: white;
-    margin-right: 135px;
+    margin-right: 8rem;
 }
 
 .details h5 {
-    padding: 50px 0px 0px 50px;
+    padding: 3rem 0rem 0rem 3rem;
 }
 
 .acc {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 50px;
+    padding-left: 3rem;
 }
 
 .acc input {
-    padding: 12px 45px;
+    padding: 1rem 45px;
     background-color: #54657d;
     border: none;
     outline: none;
 }
 
 .update {
-    padding: 60px 0px 0px 40px;
+    padding: 4rem 0rem 0rem 2rem;
 }
 
 .update button {
-    padding: 12px 50px;
+    padding: 1rem 3rem;
     background-color: #f5a623;
     border: #f5a623;
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1rem;
     outline: 3px solid cornflowerblue;
 }
 
 .delete {
-    padding: 20px 0px 50px 30px;
+    padding: 1rem 0rem 3rem 2rem;
 }
 
 .delete button {
-    padding: 12px 220px;
+    padding: 1rem 13rem;
+    margin-left: 8px;
     background-color: #f5a623;
     color: white;
     border: #f5a623;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1rem;
     outline: 3px solid cornflowerblue;
+}
+
+.navbar-brand:hover {
+    color: white;
 }
 
 .name {
@@ -292,10 +289,9 @@ select {
     color: #394f62;
 }
 
-.header-left a:hover,
-.header-left i:hover,
-.header-left p:hover,
-.header-right a:hover {
+.nav-item a:hover,
+.nav-item i:hover,
+.nav-item p:hover {
     color: #f5a623 !important;
     cursor: pointer;
 }
@@ -326,7 +322,7 @@ form input:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 3rem;
 }
 
 .login form {
@@ -334,30 +330,748 @@ form input:active {
     display: flex;
     flex-direction: column;
     color: white;
-    padding: 50px;
+    padding: 3rem;
 
 }
 
 form input {
     width: 100%;
-    padding: 15px 0px;
+    padding: 1rem 0rem;
     background-color: #567086;
     border: none;
     color: #f5a623;
-    font-size: 19px;
+    font-size: 1rem;
     outline: none;
 }
 
 form label {
-    padding: 10px 0px;
+    padding: 1rem 0rem;
 }
 
 form button {
-    padding: 12px 100px;
+    padding: 1rem 6rem;
     background-color: #f5a623;
     color: white;
     border: #f5a623;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1rem;
     outline: 3px solid cornflowerblue;
+}
+
+
+@media (min-width:320px) and (max-width:425px) {
+    body {
+        background-color: #4e657a;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #394f62c1;
+        width: 100vw;
+    }
+
+    .navbar-brand {
+        color: white;
+        font-size: 1rem;
+        margin-right: -9rem;
+        margin-left: -3rem;
+        padding-top: 1rem;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #394f62;
+    }
+
+    .nav-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -3rem;
+    }
+
+    #navb {
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+
+    #db {
+        margin-bottom: -2rem;
+    }
+
+    .nav-item a {
+        font-size: 35%;
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav-item p {
+        font-size: 40%;
+
+    }
+
+    .nav-item i {
+        text-align: center;
+    }
+
+    #admin {
+        font-size: 75%;
+        margin-top: -3rem;
+    }
+
+    #hambar {
+        margin-left: 15rem;
+        margin-top: -4rem;
+    }
+
+    .dropdown-menu a:hover {
+        background-color: #394f62;
+    }
+
+    .welcome {
+        background-color: #4e657a;
+    }
+
+    .content {
+        font-size: 1rem;
+        color: white;
+        padding-left: 1rem;
+    }
+
+    .four {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+
+    }
+
+    .graph {
+        background-color: #394f62;
+        width: 40%;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        color: white;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .orders {
+        height: 21rem;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: lightgrey #435c70;
+    }
+
+    .girls {
+        background-color: #4e657a;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        margin: 1rem 2rem;
+    }
+
+    .girls span {
+        color: orange;
+    }
+
+    .notif {
+        padding: 6px 0px 6px 0px;
+
+    }
+
+    .girls img {
+        padding-left: 1rem;
+        border-radius: 50%;
+    }
+
+    .order-list {
+        background-color: #394f62;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: lightgrey #435c70;
+        height: 28rem;
+        width: 100%;
+        margin-left: -1rem;
+    }
+
+    .table {
+        padding-top: -2rem;
+        width: 100%;
+    }
+
+    .table th {
+        background-color: #2634410f;
+        color: white;
+        padding: 1rem;
+    }
+
+    .table td {
+        background-color: #4e657a;
+        color: white;
+        padding: 1rem;
+    }
+
+    .footer {
+        background-color: #567086;
+        color: white;
+        padding: 2rem 0rem 1rem 0rem;
+        text-align: center;
+        font-size: 70%;
+        width: 100%;
+    }
+
+    .Avatar {
+        background-color: #394f62;
+        margin: 0rem;
+        width: 100vw;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 3rem;
+        color: white;
+    }
+
+    select {
+        padding: 1rem 5rem;
+        background-color: #4e657a;
+        color: white;
+    }
+
+    .account-settings {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .profile {
+        background-color: #394f62;
+        height: 70vh;
+        color: white;
+        width: 100vw;
+        margin-left: 0rem;
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+    }
+
+    .profile button {
+        padding: 1rem 3rem;
+        background-color: #f5a623;
+        border: #f5a623;
+        color: white;
+        font-weight: bold;
+        font-size: 65%;
+        margin-bottom: -9rem;
+        margin-top: -5rem;
+    }
+
+    .setting {
+        padding: 1rem 2rem;
+    }
+
+    .account-settings {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .details {
+        background-color: #394f62;
+        color: white;
+        margin-right: 8rem;
+    }
+
+    .details h5 {
+        padding: 3rem 0rem 0rem 3rem;
+    }
+
+    .acc {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 3rem;
+    }
+
+    .acc input {
+        padding: 1rem 2rem;
+        background-color: #54657d;
+        border: none;
+        outline: none;
+        margin-left: -2rem;
+    }
+
+    .update {
+        margin-left: -2rem;
+        margin-top: -3rem;
+    }
+
+    .update button {
+        padding: 1rem 2rem;
+        background-color: #f5a623;
+        border: #f5a623;
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+        outline: 3px solid cornflowerblue;
+
+    }
+
+    .delete {
+        margin-left: -2rem;
+        padding-left: 8%;
+    }
+
+    .delete button {
+        padding: 1rem 2rem;
+        background-color: #f5a623;
+        color: white;
+        border: #f5a623;
+        font-weight: bold;
+        font-size: 1rem;
+        outline: 3px solid cornflowerblue;
+    }
+
+    .navbar-brand:hover {
+        color: white;
+    }
+
+    .name {
+        font-weight: bold;
+        color: #394f62;
+    }
+
+    .nav-item a:hover,
+    .nav-item i:hover,
+    .nav-item p:hover {
+        color: #f5a623 !important;
+        cursor: pointer;
+    }
+
+    .account-settings button:hover,
+    form button:hover {
+        background-color: #394f62;
+        outline: 3px solid #f5a623;
+        color: #f5a623;
+    }
+
+    .acc input:active,
+    form input:active {
+        outline: 1px solid cornflowerblue;
+    }
+
+    .girls span:hover {
+        color: #007bff;
+        cursor: pointer;
+    }
+
+    .name:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    .page-one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+        width: 100%;
+
+    }
+
+    .login form {
+        background-color: #394f62;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        color: white;
+        padding: 3rem;
+        width: 100%;
+
+    }
+
+    form input {
+        padding: 1rem 0rem;
+        background-color: #567086;
+        border: none;
+        color: #f5a623;
+        font-size: 1rem;
+        outline: none;
+    }
+
+    form button {
+
+        padding: 5% 5rem;
+        background-color: #f5a623;
+        color: white;
+        border: #f5a623;
+        font-weight: bold;
+        font-size: 75%;
+        outline: 3px solid cornflowerblue;
+    }
+}
+
+@media (min-width:426px) and (max-width:1024px) {
+    body {
+        background-color: #4e657a;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #394f62c1;
+        width: 100vw;
+
+    }
+
+    .navbar-brand {
+        color: white;
+        font-size: 150%;
+        margin-right: -9rem;
+        margin-left: -3rem;
+        padding-top: 1rem;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #394f62;
+    }
+
+    .nav-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -40px;
+    }
+
+    .nav-item a {
+        font-size: 35%;
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .nav-item p {
+        font-size: 40%;
+
+    }
+
+    .nav-item i {
+        text-align: center;
+    }
+
+    #admin {
+        font-size: 75%;
+        margin-top: -3rem;
+    }
+
+    .dropdown-menu a:hover {
+        background-color: #394f62;
+    }
+
+    .welcome {
+        background-color: #4e657a;
+    }
+
+    .content {
+        font-size: 1rem;
+        color: white;
+        padding-left: 1rem;
+    }
+
+    .four {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1rem;
+
+    }
+
+    .graph {
+        background-color: #394f62;
+        width: 40%;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        color: white;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .orders {
+        height: 21rem;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: lightgrey #435c70;
+    }
+
+    .girls {
+        background-color: #4e657a;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        margin: 1rem 2rem;
+    }
+
+    .girls span {
+        color: orange;
+    }
+
+    .notif {
+        padding: 6px 0px 6px 0px;
+
+    }
+
+    .girls img {
+        padding-left: 1rem;
+        border-radius: 50%;
+    }
+
+    .order-list {
+        background-color: #394f62;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: lightgrey #435c70;
+        height: 28rem;
+        width: 100%;
+        margin-left: -1rem;
+    }
+
+    .ol h4 {
+        color: white;
+        padding: 3rem 0rem 2rem 4rem;
+    }
+
+    .table {
+        padding-top: 2rem;
+        width: 100%;
+    }
+
+    .table th {
+        background-color: #2634410f;
+        color: white;
+        padding: 1rem;
+    }
+
+    .table td {
+        background-color: #4e657a;
+        color: white;
+    }
+
+    .footer {
+        background-color: #567086;
+        color: white;
+        padding: 2rem 0rem 1rem 0rem;
+        text-align: center;
+        font-size: 100%;
+        width: 100%;
+    }
+
+    .Avatar {
+        background-color: #394f62;
+        margin: 3rem 8rem;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 3rem;
+        color: white;
+    }
+
+    select {
+        padding: 1rem 5rem;
+        outline: 3px solid cornflowerblue;
+        background-color: #4e657a;
+        color: white;
+    }
+
+    .account-settings {
+        display: flex;
+        margin-left: -7rem;
+        width: 100%;
+    }
+
+    .profile {
+        background-color: #394f62;
+        height: 77vh;
+        padding: 3rem;
+        color: white;
+        margin: 0rem 2rem 0rem 8rem;
+        width: 45vw;
+
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0rem;
+        margin-bottom: -1rem;
+
+    }
+
+    .profile button {
+        padding: 1rem 6rem;
+        background-color: #f5a623;
+        border: #f5a623;
+        color: white;
+        font-weight: bold;
+        font-size: 45%;
+        outline: 3px solid cornflowerblue;
+    }
+
+    .setting {
+        padding: 1rem 2rem;
+    }
+
+    .details {
+        background-color: #394f62;
+        color: white;
+        margin-left: -1rem;
+        width: 50%;
+    }
+
+    .details h5 {
+        padding: 3rem 0rem 0rem 3rem;
+    }
+
+    .acc {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 3rem;
+    }
+
+    .acc input {
+        padding: 1rem 45px;
+        background-color: #54657d;
+        border: none;
+        outline: none;
+    }
+
+    .update {
+        margin-top: -2rem;
+    }
+
+    .update button {
+        padding: 1rem 3rem;
+        background-color: #f5a623;
+        border: #f5a623;
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+        outline: 3px solid cornflowerblue;
+    }
+
+    .delete {
+        margin-left: -2%;
+    }
+
+    .delete button {
+        padding: 1rem 3rem;
+        margin-left: 8px;
+        background-color: #f5a623;
+        color: white;
+        border: #f5a623;
+        font-weight: bold;
+        font-size: 1rem;
+        outline: 3px solid cornflowerblue;
+    }
+
+    .navbar-brand:hover {
+        color: white;
+    }
+
+    .name {
+        font-weight: bold;
+        color: #394f62;
+    }
+
+    .nav-item a:hover,
+    .nav-item i:hover,
+    .nav-item p:hover {
+        color: #f5a623 !important;
+        cursor: pointer;
+    }
+
+    .account-settings button:hover,
+    form button:hover {
+        background-color: #394f62;
+        outline: 3px solid #f5a623;
+        color: #f5a623;
+    }
+
+    .acc input:active,
+    form input:active {
+        outline: 1px solid cornflowerblue;
+    }
+
+    .girls span:hover {
+        color: #007bff;
+        cursor: pointer;
+    }
+
+    .name:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    .page-one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+        width: 100%;
+
+    }
+
+    .login form {
+        background-color: #394f62;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        color: white;
+        padding: 3rem;
+        width: 100%;
+
+    }
+
+    form input {
+        padding: 1rem 0rem;
+        background-color: #567086;
+        border: none;
+        color: #f5a623;
+        font-size: 1rem;
+        outline: none;
+    }
+
+    form button {
+
+        padding: 5% 5rem;
+        background-color: #f5a623;
+        color: white;
+        border: #f5a623;
+        font-weight: bold;
+        font-size: 75%;
+        outline: 3px solid cornflowerblue;
+    }
 }
