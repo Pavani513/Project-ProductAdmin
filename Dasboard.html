@@ -13,32 +13,61 @@
 </head>
 
 <body>
-  <div class="header">
-    <div class="header-left">
-      <div>
-        <h3>PRODUCT ADMIN</h3>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid" id="toggle">
+      <h3 class="navbar-brand">Product Admin</h3>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 d-block-md">
+          <li class="nav-item">
+            <a href="#"><i class="fa fa-tachometer pt-4" style="font-size:25px;color:white">
+                <p class="mt-2">Dashboard</p>
+              </i></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" id="settingsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-regular fa-file-lines pt-4" style="font-size:25px; color:white;">
+                <p class="nav-link dropdown-toggle text-light mt-1">Reports</p>
+              </i>
+              <ul class="dropdown-menu" aria-labelledby="settingsDropdown" style="background-color: #394f62c1;">
+                <li><a class="dropdown-item text-light" href="#">Daily Report</a></li>
+                <li><a class="dropdown-item text-light" href="#">Weekly Report</a></li>
+                <li><a class="dropdown-item text-light" href="#">Yearly Report</a></li>
+              </ul>
+          </li>
+          <li class="nav-item" id="product">
+            <i class="fa fa-shopping-cart pt-4" style="font-size:25px; color:white">
+              <p class="mt-2">Products</p>
+            </i>
+          </li>
+          <li class="nav-item">
+            <a href="./Accounts.html"><i class="fa fa-user pt-4" style="font-size:25px; color:white">
+                <p class="mt-2">Accounts</p>
+              </i></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" id="settingsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-gear pt-4" style="font-size:25px;color:white;">
+                <p class="nav-link dropdown-toggle text-light mt-1">Settings</p>
+              </i>
+              <ul class="dropdown-menu" aria-labelledby="settingsDropdown" style="background-color: #394f62c1;">
+                <li><a class="dropdown-item text-light" href="#">Profile</a></li>
+                <li><a class="dropdown-item text-light" href="#">Billing</a></li>
+                <li><a class="dropdown-item text-light" href="#">Customize</a></li>
+              </ul>
+          </li>
+          <li class="nav-item">
+            <a class="text-decoration-none text-light p-5" id="admin" href="Login.html">Admin<strong> Login</strong></a>
+          </li>
       </div>
-      <div class="main" style="text-align:center;">
-      <i class="fa fa-tachometer" style="font-size:25px;color:white"><a class="d-block" href="#">Dashboard</a></i>
-      <i class="fa-regular fa-file-lines" style="font-size:25px; color:white;"><p class="nav-link dropdown-toggle">Reports</p></i>
-      <i class="fa fa-shopping-cart" style="font-size:25px; color:white"><p>Products</p></i>
-      <i class="fa fa-user" style="font-size:25px; color:white"><a class="d-block" href="./Accounts.html">Accounts</a></i>
-        <a href="#" id="settingsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-       <i class="fa fa-gear" style="font-size:25px;color:white;"><p class="nav-link dropdown-toggle">Settings</p></i>
-        <ul class="dropdown-menu" aria-labelledby="settingsDropdown" style="background-color: #394f62c1;">
-        <li><a class="dropdown-item text-light" href="#">Profile</a></li>
-        <li><a class="dropdown-item text-light" href="#">Billing</a></li>
-        <li><a class="dropdown-item text-light" href="#">Customize</a></li>
-        </ul>
-        </div>
-      </div>
-    <div class="header-right">
-      <a class="text-decoration-none text-light" href="Login.html">
-        <p class="d-inline">Admin</p>
-        <h5 class="d-inline">Login</h5>
-      </a>
+
     </div>
-  </div>
+  </nav>
+
   <div class="Welcome">
     <div class="content">
       <span>Welcome back,</span>
@@ -47,11 +76,11 @@
     <div class="four">
       <div class="graph">
         <h4>Latest Hits</h4>
-        <img src="./Images/gone.jpg" alt="">
+        <img src="./Images/gone.jpg" alt="" width="100%">
       </div>
       <div class="graph">
         <h4>Performance</h4>
-        <img src="./Images/gtwo.jpg" alt="">
+        <img src="./Images/gtwo.jpg" alt="" width="100%">
       </div>
       <div class="graph">
         <h4>Storage Information</h4>
@@ -184,7 +213,7 @@
           </tr>
           <tr>
             <td>#122345</td>
-            <td><i class="fa-solid fa-circle" style="color: red; font-size: 5px;"></i> Pending</td>
+            <td><i class="fa-solid fa-circle" style="color: yellow; font-size: 5px;"></i> Pending</td>
             <td>Harry Ryan</td>
             <td>London, UK</td>
             <td>280 km</td>
@@ -193,7 +222,7 @@
           </tr>
           <tr>
             <td>#122344</td>
-            <td><i class="fa-solid fa-circle" style="color: red; font-size: 5px;"></i> Pending</td>
+            <td><i class="fa-solid fa-circle" style="color: yellow; font-size: 5px;"></i> Pending</td>
             <td>Michael Jones</td>
             <td>London, UK</td>
             <td>218 km</td>
